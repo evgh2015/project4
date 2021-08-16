@@ -1,0 +1,117 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 85%;
+    }
+    .header {
+        &__logo {
+            width: 180px;
+        }
+        &__official {
+            font-size: 14px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__contacts {
+            font-size: 16px;
+            .button {
+                width: 145px;
+                height: 30px;
+            }
+        }
+    }
+    .title {
+        font-size: 27px;
+    }
+    .advantages {
+        padding: 60px 0 65px 0;
+        &__icons {
+            flex-direction: column;
+            height: 700px;
+        }
+        &__text {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        &__icon {
+            margin-top: 35px;
+        }
+    }
+    .promo {
+        padding: 20px 0 80px 0;
+        &__header {
+            font-size: 40px;
+        }
+        &__subheader {
+            font-size: 21px;
+        }
+        &__icons {
+            margin-top: 50px;
+        }
+        &__link {
+            font-size: 15px;
+        }
+    }
+    .button {
+        &_main {
+            margin-top: 60px;
+            width: 292px;
+            height: 51px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        &__official {
+            font-size: 10px;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+
+}
+@media (max-width: 575px) {
+    .header {
+        display: block;
+        &__official {
+           display: none;
+        }
+        &__contacts {
+            display: block;
+            margin-top: 10px;
+            margin-right: auto;
+        }
+    }
+    .promo {
+        padding-bottom: 50px;
+        &__header {
+            font-size: 35px;
+            text-align: left;
+        }
+        &__wrapper {
+            margin-top: 40px;
+            display: block;
+        }
+        &__subheader {
+            font-size: 13px;
+            text-align: left;
+        }
+        &__icons {
+            width: 320px;
+/*             margin: 50px auto; */
+        }
+    }
+    .title {
+        font-size: 21px;
+    }
+    .advantages {
+        padding-top: 40px;
+
+    }
+}
