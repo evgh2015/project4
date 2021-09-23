@@ -1,0 +1,27 @@
+.feedback {
+    padding-bottom: 48px;
+    &__item {
+        display: flex;
+        margin-top: 60px;
+        align-items: flex-start;
+    }
+    &__content {
+        margin-left: 61px;
+        /* width: 680px; */
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__subtitle-descr {
+        font-size: 14px;
+        font-weight: 500;
+        color: #646464;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 16px;
+        color: #0D0D0D;
+        margin-top: 10px;
+    }
+}
