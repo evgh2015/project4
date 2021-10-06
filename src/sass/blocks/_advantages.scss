@@ -13,12 +13,6 @@
     }
     &__icon {
         width: 270px;
-        img {
-            animation-name: heartbeat;
-            animation-duration: 2s;
-            animation-timing-function: ease;
-            animation-iteration-count: infinite;
-        }
     }
     &__subheader {
         color: #0D0D0D;
@@ -38,7 +32,6 @@
         }
     }
     img.animated {
-        animation-name: heartbeat;
-        animation-duration: 2s;
-    }
+        animation: heartbeat 2s ease infinite;
+}
 }
