@@ -13,6 +13,10 @@
     }
     &__icon {
         width: 270px;
+        img {
+            animation-name: heartbeat;
+            animation-duration: 2s;
+        }
     }
     &__subheader {
         color: #0D0D0D;
@@ -31,8 +35,4 @@
             color: #FF0000;
         }
     }
-}
-#animated {
-    animation-name: heartbeat;
-    animation-duration: 2s;
 }
