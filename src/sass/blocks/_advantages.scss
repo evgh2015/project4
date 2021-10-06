@@ -35,4 +35,8 @@
             color: #FF0000;
         }
     }
+    img.animated {
+        animation-name: heartbeat;
+        animation-duration: 2s;
+    }
 }
